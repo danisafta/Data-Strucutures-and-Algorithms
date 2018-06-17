@@ -116,14 +116,8 @@ TTree Where (TTree t, Item x)
     return NULL;
   if(t->elem == x)
     return t;
-  else 
-  {
-    TTree a = Where(t->lt,x);
-    if(a != NULL)
-      return a;
-    return Where(t->rt,x);
-  }
-
+  if(t->lt!=NULL) return Where(t->lt,x);
+if(t->rt!=NULL) return Where(t->rt,x);
 }
 
 

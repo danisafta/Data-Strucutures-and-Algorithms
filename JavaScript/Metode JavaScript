@@ -1,0 +1,69 @@
+Metode JavaScript
+
+
+String Methods:
+
+var x="orice text poate fi aici";
+
+x.indexOf();
+x.lastIndexOf();
+x.slice(start,end);
+x.substring(start,end);
+x.substr(start,lenght);
+x.replace;
+x.toUpperCase;
+x.toLowerCase;
+x.concat();
+x.charAt(poz);
+x.charCodeAt(poz);
+x.lenght;
+
+Number Methods
+
+toString();
+toExponential(); // intoarce numarul in forma exponentiala
+toFixed();
+toPrecision();
+valueOf();
+Number();//transforma boolene
+parseInt();//transofrma text in numar int
+parseFloat();// la fel doar ca in float
+
+
+Math 
+
+Math.round();
+Math.pow();
+Math.sqrt();
+Math.abs();
+Math.ceil();// aproximeaza la cel mai mic intreg mai mare ca el
+Math.floor();//aproximeaza la cel mai mare intreg mai mic ca el
+Math.max();
+Math.min();
+Math.sin();
+Math.cos();
+Math.E();
+Math.PI();
+Math.SQRT2;
+Math.SQRT1_2;
+Math.LN2;
+Math.LN10;
+Math.LOG2E
+Math.LOG10E;
+Math.random();
+
+
+
+
+Arrays
+
+
+toString(); // convert array into string
+join(separator); // same as to string but put the separator between elements
+pop();// REMOVE LAST, RETURN ELEMENT
+push();//ADD AT THE END and returns LENGHT
+shift();// ADD AT THE BEGINNIN
+unshift();
+splice();// la ce pozitie sa bage elementu nou, cate  sa stearga, si ce vrem sa adaugam
+slice();// returneaza o bucata din vector incepand cu un indice dat
+
