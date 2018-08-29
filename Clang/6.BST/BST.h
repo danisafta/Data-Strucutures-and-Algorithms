@@ -27,7 +27,7 @@ typedef struct BSTNode{
 typedef struct BSTree{
 	long size; // This inintially is 0, and is updated by insert/delete
 	BSTNode *root; // The sentinel root (a sentinel not the actual root). The actual root node is root->l !
-	BSTNode *nil; // The nil sentinel to avoid checks for NULL
+	BSTNode *nil; // The nil sentinel to avoid checks for NULL:
 }BSTree;
 
 // TODO: Cerinta 1 si 2
